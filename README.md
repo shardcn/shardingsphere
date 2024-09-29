@@ -1,0 +1,2 @@
+# shardingsphere
+可以完全使用中文交流的shardingsphere，适用于中文用户
