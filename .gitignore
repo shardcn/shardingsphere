@@ -6,6 +6,7 @@ target/
 *.zip
 *.tar
 *.tar.gz
+dependency-reduced-pom.xml
 
 # maven plugin ignore
 release.properties
@@ -16,6 +17,7 @@ cobertura.ser
 .settings/
 .project
 .classpath
+.factorypath
 
 # idea ignore
 .idea/
@@ -35,3 +37,22 @@ logs/
 # system ignore
 .DS_Store
 Thumbs.db
+
+# antlr ignore
+gen/
+*.tokens
+
+# agent build ignore
+/agent/
+
+# JRebel
+rebel.xml
+.run/
+
+# flatten
+.flattened-pom.xml
+pom-xml-flattened
+
+# tmp
+/tmp/*
+tmp/tmp.yml
