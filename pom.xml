@@ -31,7 +31,6 @@
     
     <modules>
         <module>shardingsphere-spi</module>
-        
         <module>shardingsphere-sql-parser</module>
         <module>shardingsphere-database-protocol</module>
         <module>shardingsphere-underlying</module>
@@ -58,7 +57,7 @@
     
     <properties>
         <java.version>1.8</java.version>
-        <maven.version.range>[3.0.4,)</maven.version.range>
+        <maven.version.range>[3.6.1,)</maven.version.range>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.locale>zh_CN</project.build.locale>
         
